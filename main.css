@@ -65,7 +65,6 @@ textarea {
 
 body {
   background-color: aliceblue;
-  font-family:serif;
 }
 
 header{
@@ -109,12 +108,14 @@ nav a{
   text-decoration: none;
   border-bottom: solid gray 2px;
   color: gray;
+  font-family: 'playfair display sc', serif;
 }
 
 
 nav a:hover{
   color: darkcyan;
   border-bottom: 10px darkcyan;
+  border-bottom: solid darkcyan 2px;
 
 }
 
@@ -132,6 +133,14 @@ nav a{
 
 h1{
   margin-bottom: 40px;
+}
+
+h1, h2, h3{
+  font-family:'playfair display SC', serif;
+}
+
+h5, article, p{
+  font-family: 'playfair display', serif;
 }
 
 }
